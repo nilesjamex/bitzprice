@@ -1,0 +1,19 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "next js first tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "next": "^10.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC"
+}
