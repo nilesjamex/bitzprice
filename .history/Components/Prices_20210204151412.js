@@ -2,9 +2,10 @@ import React, {useState} from 'react'
 
 const Prices = (props) => {
     const [sign, setSign] = useState({currency: 'USD'});
-    
+    const [money, setMoney] = useState("USD");
+    setMoney([e.target.value])
 
-    
+    const onChange = e => setSign.currency({money})
 
     let list = " ";
 
@@ -39,11 +40,11 @@ const Prices = (props) => {
            {list}
              </ul>  
              <br/>
-             {/* <select onChange={onChange} className="form-control">
+             <select onChange={onChange} className="form-control">
               <option name="currency" value="USD">USD</option>
               <option name="currency" value="EUR">EUR</option>
               <option name="currency" value="GBP">GBP</option>  
-             </select>  */}
+             </select> 
         </div>
     )
 }

@@ -4,7 +4,7 @@ const Prices = (props) => {
     const [sign, setSign] = useState({currency: 'USD'});
     
 
-    
+    // const onChange = e => setSign.currency()
 
     let list = " ";
 
